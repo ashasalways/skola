@@ -1,0 +1,29 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>70</x><y>50</y><w>100</w><h>100</h></coordinates><panel_attributes>main()
+--
+skola:ElevHandler
+loopin:boolean
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>50</y><w>250</w><h>220</h></coordinates><panel_attributes>ElevHandler
+--
+self.elevlista:list
+self.filnamn:str
+--
+_init_()
+add_elev(namn:str, utbilding:str, tel:str)
+del_elev(tel:str)
+print_elevlista()
+print_meny()
+spara_avsluta()
+save_to_file()
+read_from_file()
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>50</y><w>230</w><h>140</h></coordinates><panel_attributes>Elev
+--
+self.namn:str
+self.utbilding:str
+self.tel:str
+--
+_init_(namn:str, utbildning:str, tel:str)
+get_elev():str
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>160</y><w>60</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>40;10;20;10</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>120</y><w>60</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>40;10;20;10</additional_attributes></element></diagram>
