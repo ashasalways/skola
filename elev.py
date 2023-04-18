@@ -2,7 +2,7 @@ class Elev:
 
     #Konstruktor
 
-    def __init__(self, namn, tel, utbildning):
+    def __init__(self, namn, utbildning, tel):
         self.namn = namn
         self.tel = tel
         self.utbildning = utbildning
